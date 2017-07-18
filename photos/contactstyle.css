@@ -1,0 +1,11 @@
+h2{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#sliding{
+	max-width: 1500px;
+	height: 400px;
+	margin:auto;
+	margin-left: 80px;
+}
