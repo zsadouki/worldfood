@@ -1,0 +1,40 @@
+#location {
+  position: relative;
+  padding-bottom: 30%;
+  height: 10;
+  overflow: hidden;
+}
+
+#location iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+h2{
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+#contact{
+  padding-top: 20px;
+}
+
+#human {
+  text-align: center;
+}
+
+#social-media{
+  padding-top: 20px;
+}
+
+.btn-twitter{
+  background-color: #55ACEE;
+  color: white;
+}
+.btn-facebook{
+  background-color: #3B5998;
+  color: white;
+}
