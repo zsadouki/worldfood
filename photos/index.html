@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="contactstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <title>El-Ghazali Arabic school</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">El-Ghazali</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Schedule</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#location"><span class="glyphicon glyphicon-user"></span>Find us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Closing Nav header -->
+
+  <h2 class="title">Our activities</h2>
+
+  <div class="photoslide" id=sliding>
+      <img class="mySlides" src="pic1.jpg" style="width:92%">
+      <img class="mySlides" src="pic2.jpg" style="width:92%">
+      <img class="mySlides" src="pic3.jpg" style="width:92%">
+      <img class="mySlides" src="pic4.jpg" style="width:92%">
+    </div>
+  </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+     }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+  }
+
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
